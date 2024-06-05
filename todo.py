@@ -1,3 +1,10 @@
+"""
+# Author:       Pablo Andrade
+# Created:      05/06/2024
+# Version:      0.0.1
+# Description:  A ToDo app for fast usage
+"""
+
 import sqlite3
 import argparse
 
