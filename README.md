@@ -1,9 +1,6 @@
-Aqui está um README.md resumido baseado nos scripts fornecidos:
-
-```markdown
 # ToDo CLI Application
 
-![cli.git](./src/todo_cli.gif)
+![cli.git](./src/todo_cli.mp4)
 
 ## Funcionalidades
 O ToDo CLI permite:
