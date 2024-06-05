@@ -1,6 +1,6 @@
 # ToDo CLI Application
 
-![cli.git](./src/todo_cli.mp4)
+![cli.git](./src/todo_cli.gif)
 
 ## Funcionalidades
 O ToDo CLI permite:
