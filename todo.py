@@ -1,7 +1,7 @@
 """
 # Author:       Pablo Andrade
 # Created:      05/06/2024
-# Version:      0.0.1
+# Version:      0.0.2
 # Description:  A ToDo app for fast usage
 """
 
@@ -9,7 +9,7 @@ import sqlite3
 import argparse
 
 def list_db(cur):
-    for row in cur.execute("""SELECT Id, Date as Title, Text as Body FROM note;"""):
+    for row in cur.execute("""SELECT Id, Date as Title, Text as Body FROM note ORDER BY Date ASC;"""):
         print(f"> {row[0]}: {row[1]} - {row[2]}")
 
 def insert_db(con, cur, note_title, note_body):
@@ -38,7 +38,7 @@ def main():
 
     args = parser.parse_args()
 
-    con = sqlite3.connect("./todo.db")
+    con = sqlite3.connect("/home/pablodeas/Projects/pessoal/Python/todocli/todo.db")
     cur = con.cursor()
 
     try:

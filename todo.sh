@@ -7,4 +7,4 @@
 
 #source /home/pablodeas/Projects/pessoal/Python/todocli/.venv/bin/activate
 
-python /home/pablodeas/Projects/pessoal/Python/todocli/todo.py "$@"
+python3 /home/pablodeas/Projects/pessoal/Python/todocli/todo.py "$@"
